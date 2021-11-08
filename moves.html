@@ -1,0 +1,150 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+
+<div class="row">
+  <div class="col">
+    <!-- <div class="sticky-top d-flex align-content-stretch flex-wrap"> -->
+    <div class="sticky-top">
+    <div class="overflow-auto" style="height: calc(100vh - 1rem);">
+      <div>
+        <h4>Aventura</h4>
+        <ul>
+          {% assign moves = site.moves | sort: 'title' %}
+          {% for move in moves %}
+            {% if move.url contains 'adventure' %}
+              <li><a href="#{{move.title | to_id}}">{{ move.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div>
+        <h4>Relaliones</h4>
+        <ul>
+          {% for move in moves %}
+            {% if move.url contains 'relationship' %}
+              <li><a href="#{{move.title | to_id}}">{{ move.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div>
+        <h4>Combate</h4>
+        <ul>
+          {% for move in moves %}
+            {% if move.url contains 'combat' %}
+              <li><a href="#{{move.title | to_id}}">{{ move.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div>
+        <h4>Sufrimiento</h4>
+        <ul>
+          {% for move in moves %}
+            {% if move.url contains 'suffer' %}
+              <li><a href="#{{move.title | to_id}}">{{ move.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div>
+        <h4>Quest</h4>
+        <ul>
+          {% for move in moves %}
+            {% if move.url contains 'quest' %}
+              <li><a href="#{{move.title | to_id}}">{{ move.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div>
+        <h4>Fate</h4>
+        <ul>
+          {% for move in moves %}
+            {% if move.url contains 'fate' %}
+              <li><a href="#{{move.title | to_id}}">{{ move.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="col-8">
+    {% for move in moves %}
+      {% if move.url contains 'adventure' %}
+      <div class="card mb-3">
+        <div id="moves-adventure" class="card-header">
+          <h2 id="{{move.title | to_id}}">{{ move.title }}</h2>
+        </div>
+        <div class="card-body">{{ move.content | markdownify }}</div>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    {% for move in moves %}
+      {% if move.url contains 'relationship' %}
+        <div class="card mb-3">
+          <div id="moves-relationship" class="card-header">
+            <h2 id="{{move.title | to_id}}">{{ move.title }}</h2>
+          </div>
+          <div class="card-body">{{ move.content | markdownify }}</div>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    {% for move in moves %}
+      {% if move.url contains 'combat' %}
+        <div class="card mb-3">
+          <div id="moves-combat" class="card-header">
+            <h2 id="{{move.title | to_id}}">{{ move.title }}</h2>
+          </div>
+          <div class="card-body">{{ move.content | markdownify }}</div>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    {% for move in moves %}
+      {% if move.url contains 'suffer' %}
+        <div class="card mb-3">
+          <div id="moves-suffer" class="card-header">
+            <h2 id="{{move.title | to_id}}">{{ move.title }}</h2>
+          </div>
+          <div class="card-body">{{ move.content | markdownify }}</div>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    {% for move in moves %}
+      {% if move.url contains 'quest' %}
+        <div class="card mb-3">
+          <div id="moves-quest" class="card-header">
+            <h2 id="{{move.title | to_id}}">{{ move.title }}</h2>
+          </div>
+          <div class="card-body">{{ move.content | markdownify }}</div>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    {% for move in moves %}
+      {% if move.url contains 'fate' %}
+        <div class="card mb-3">
+          <div id="moves-fate" class="card-header">
+            <h2 id="{{move.title | to_id}}">{{ move.title }}</h2>
+          </div>
+          <div class="card-body">{{ move.content | markdownify }}</div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
