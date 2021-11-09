@@ -1,0 +1,30 @@
+---
+layout: home
+---
+<div class="row">
+  <div class="col">
+    <div class="sticky-top">
+      <div class="overflow-auto" style="height: calc(100vh - 1rem);">
+        <div>
+          <h4>Oraculos</h4>
+          <ul>
+            {{oracles}}
+            {% for oracle in site.oracles %}
+              <li><a href="#{{oracle.title | to_id}}">{{ oracle.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    {% for oracle in site.oracles %}
+      <div class="card mb-3">
+        <div id="oracle-action-theme" class="card-header">
+          <h2 id="{{oracle.title | to_id}}">{{ oracle.title }}</h2>
+        </div>
+        <div class="card-body overflow-auto" style="height: 300px">{{ oracle.content }}</div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
