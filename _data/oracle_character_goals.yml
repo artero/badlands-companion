@@ -1,0 +1,99 @@
+- from: 1
+  to: 3
+  value: Obtener un objeto
+- from: 4
+  to: 6
+  value: Hacer un acuerdo
+- from: 7
+  to: 9
+  value: Construye una relación
+- from: 10
+  to: 12
+  value: Socavar una relación
+- from: 13
+  to: 15
+  value: Busca una verdad
+- from: 16
+  to: 18
+  value: pagar una deuda
+- from: 19
+  to: 21
+  value: refutar una falsedad
+- from: 22
+  to: 24
+  value: Dañar a un rival
+- from: 25
+  to: 27
+  value: curar un enfermo
+- from: 28
+  to: 30
+  value: Encuentra una persona
+- from: 31
+  to: 33
+  value: Encuentra una casa
+- from: 34
+  to: 36
+  value: Toma el poder
+- from: 37
+  to: 39
+  value: Restaurar una relación
+- from: 40
+  to: 42
+  value: Crear un artículo
+- from: 43
+  to: 45
+  value: Viajar a un lugar
+- from: 46
+  to: 48
+  value: Disposiciones seguras
+- from: 49
+  to: 51
+  value: Rebelde contra el poder
+- from: 52
+  to: 54
+  value: Cobrar una deuda
+- from: 55
+  to: 57
+  value: Protege un secreto
+- from: 58
+  to: 60
+  value: Difundir la fe
+- from: 61
+  to: 63
+  value: Enriquecerse
+- from: 64
+  to: 66
+  value: Proteger a una persona
+- from: 67
+  to: 69
+  value: Proteger el status quo
+- from: 70
+  to: 72
+  value: Estado avanzado
+- from: 73
+  to: 75
+  value: Defiende un lugar
+- from: 76
+  to: 78
+  value: Venga un mal
+- from: 79
+  to: 81
+  value: Cumplir con un deber
+- from: 82
+  to: 84
+  value: Adquirir conocimiento
+- from: 85
+  to: 87
+  value: Demuestra tu valía
+- from: 88
+  to: 90
+  value: Encuentra redención
+- from: 91
+  to: 92
+  value: Escapar de algo
+- from: 93
+  to: 95
+  value: Resolver una disputa
+- from: 96
+  to: 00
+  value: Tira dos veces

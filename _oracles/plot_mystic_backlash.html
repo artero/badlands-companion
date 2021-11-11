@@ -1,0 +1,23 @@
+---
+title: Guión - Problemas con Rituales
+---
+<div class="row">
+  <div class="col">
+    <table class="table table-sm table-striped table-hover">
+      <thead class="undefined sticky-header">
+        <tr>
+          <th scope="col">1d100</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in site.data.oracle_plot_mystic_backlash %}
+          <tr>
+            <th scope="row">{{row.from}}-{{row.to}}</th>
+            <td>{{ row.value }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>

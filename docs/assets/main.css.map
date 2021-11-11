@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"iron\";\n",
-		"h1 {\n  color: pink;\n}\n"
+		""
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,EAAE,CAAC,EACD,KAAK,EAAE,IAAI,GACZ"
+	"mappings": ""
 }

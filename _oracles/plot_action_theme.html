@@ -1,5 +1,5 @@
 ---
-title: Action/Theme
+title: Guión - Action/Theme
 ---
 <div class="row">
   <div class="col">
@@ -11,7 +11,7 @@ title: Action/Theme
         </tr>
       </thead>
       <tbody>
-        {% for row in site.data.oracle_action %}
+        {% for row in site.data.oracle_plot_action %}
           <tr>
             <th scope="row">{{row.key}}</th>
             <td>{{ row.value }}</td>
@@ -29,7 +29,7 @@ title: Action/Theme
         </tr>
       </thead>
       <tbody>
-        {% for row in site.data.oracle_theme %}
+        {% for row in site.data.oracle_plot_theme %}
           <tr>
             <th scope="row">{{row.key}}</th>
             <td>{{ row.value }}</td>

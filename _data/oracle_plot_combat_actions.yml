@@ -1,0 +1,54 @@
+- from: 1
+  to: 3
+  value: Obligar a una rendición.
+- from: 4
+  to: 6
+  value: Coordinar con aliados.
+- from: 7
+  to: 9
+  value: Reúne refuerzos.
+- from: 10
+  to: 13
+  value: Agarre algo o alguien.
+- from: 14
+  to: 17
+  value: Provoca una respuesta imprudente.
+- from: 18
+  to: 21
+  value: Intimidar o asustar.
+- from: 22
+  to: 25
+  value: Revela una verdad sorprendente.
+- from: 26
+  to: 29
+  value: Cambie el enfoque a alguien o algo más.
+- from: 30
+  to: 33
+  value: Destruye algo o inutilízalo.
+- from: 34
+  to: 39
+  value: Toma una acción decisiva.
+- from: 40
+  to: 45
+  value: Refuerce las defensas.
+- from: 46
+  to: 52
+  value: Prepara una acción.
+- from: 53
+  to: 60
+  value: Usa el terreno para ganar ventaja.
+- from: 61
+  to: 68
+  value: Aprovecha la ventaja de un arma o habilidad.
+- from: 69
+  to: 78
+  value: Cree una oportunidad.
+- from: 79
+  to: 89
+  value: Ataque con precisión.
+- from: 90
+  to: 99
+  value: Ataque con poder.
+- from: 00
+  to: Realice
+  value: una acción completamente inesperada.
