@@ -1,0 +1,30 @@
+- from: 1
+  to: 10
+  value: Tall Pines
+- from: 51
+  to: 60
+  value: High Plains
+- from: 11
+  to: 20
+  value: Costa Dorada
+- from: 61
+  to: 70
+  value: The Swale
+- from: 21
+  to: 30
+  value: Mil Piedras
+- from: 71
+  to: 80
+  value: Sea of Grass
+- from: 31
+  to: 40
+  value: Big Nothing
+- from: 81
+  to: 90
+  value: The Big Muddy
+- from: 41
+  to: 50
+  value: Lithic Mountains
+- from: 91
+  to: 00
+  value: Back East

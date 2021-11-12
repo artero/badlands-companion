@@ -1,0 +1,30 @@
+- from: 1
+  to: 14
+  value: Pradera
+- from: 60
+  to: 69
+  value: Cañón
+- from: 15
+  to: 24
+  value: bosque
+- from: 70
+  to: 84
+  value: Maleza
+- from: 25
+  to: 34
+  value: montaña
+- from: 85
+  to: 92
+  value: Desierto
+- from: 35
+  to: 49
+  value: Valle
+- from: 93
+  to: 99
+  value: Agua (rio, lago, etc.)
+- from: 50
+  to: 59
+  value: Butte
+- from: 00
+  to: 00
+  value: En otra parte
