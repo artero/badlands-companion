@@ -3,6 +3,14 @@ layout: home
 ---
 <div class="row">
   <div class="col">
+    <div data-controller="hello">
+      <input data-hello-target="name" type="text">
+      <button data-action="click->hello#greet">Greet</button>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
     <div class="sticky-top">
       <div class="overflow-auto" style="height: calc(100vh - 1rem);">
         <div>
@@ -18,6 +26,44 @@ layout: home
     </div>
   </div>
   <div class="col-8">
+    <div class="card mb-3">
+      <div id="oracle-action-theme" class="card-header">
+        <h2>Badlands Territorio</h2>
+      </div>
+      <div class="card-body">
+        <div class="border-bottom pb-3">
+          <div class="row">
+            <div class="d-flex justify-content-between"
+                 data-controller="roll_oracle"
+                 data-roll_oracle-table-value="oracle_badlands_terrain">
+              <div class="col-10">
+                <h5>Badlads Terreno</h5>
+                <small class="" data-roll_oracle-target="result"></small>
+                <div>
+                  <i class="bi bi-x d-none"
+                     role="button"
+                     data-action="click->roll_oracle#clean_history"
+                     data-roll_oracle-target="clean_history"></i>
+                  <small class="text-muted" data-roll_oracle-target="history"></small>
+                </div>
+              </div>
+              <div>
+                <i data-action="click->roll_oracle#roll"
+                  role="button"
+                  class="bi bi-dice-6"></i>
+                <span class="btn d-inline-flex align-items-center rounded collapsed" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                  <i class="bi bi-chevron-down"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="collapse multi-collapse px-3 pb-0 pt-3" id="multiCollapseExample1">
+            {% render_time oracle_badlands_terrain %}
+          </div>
+        </div>
+      </div>
+    </div>
+
     {% for oracle in site.oracles %}
       <div class="card mb-3">
         <div id="oracle-action-theme" class="card-header">
