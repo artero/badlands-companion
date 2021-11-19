@@ -1,99 +1,90 @@
-- from: 1
-  to: 3
-  value: 'Obtener un objeto'
-- from: 4
-  to: 6
-  value: 'Hacer un acuerdo'
-- from: 7
-  to: 9
-  value: 'Construye una relación'
-- from: 10
-  to: 12
-  value: 'Socavar una relación'
-- from: 13
-  to: 15
-  value: 'Busca una verdad'
-- from: 16
-  to: 18
-  value: 'Pagar una deuda'
-- from: 19
-  to: 21
-  value: 'Refutar una falsedad'
-- from: 22
-  to: 24
-  value: 'Dañar a un rival'
-- from: 25
-  to: 27
-  value: 'Curar un enfermo'
-- from: 28
-  to: 30
-  value: 'Encuentra una persona'
-- from: 31
-  to: 33
-  value: 'Encuentra una casa'
-- from: 34
-  to: 36
-  value: 'Toma el poder'
-- from: 37
-  to: 39
-  value: 'Restaurar una relación'
-- from: 40
-  to: 42
-  value: 'Crear un artículo'
-- from: 43
-  to: 45
-  value: 'Viajar a un lugar'
-- from: 46
-  to: 48
-  value: 'Disposiciones seguras'
-- from: 49
-  to: 51
-  value: 'Rebelde contra el poder'
-- from: 52
-  to: 54
-  value: 'Cobrar una deuda'
-- from: 55
-  to: 57
-  value: 'Protege un secreto'
-- from: 58
-  to: 60
-  value: 'Difundir la fe'
-- from: 61
-  to: 63
-  value: 'Enriquecerse'
-- from: 64
-  to: 66
-  value: 'Proteger a una persona'
-- from: 67
-  to: 69
-  value: 'Proteger el status quo'
-- from: 70
-  to: 72
-  value: 'Estado avanzado'
-- from: 73
-  to: 75
-  value: 'Defiende un lugar'
-- from: 76
-  to: 78
-  value: 'Venga un mal'
-- from: 79
-  to: 81
-  value: 'Cumplir con un deber'
-- from: 82
-  to: 84
-  value: 'Adquirir conocimiento'
-- from: 85
-  to: 87
-  value: 'Demuestra tu valía'
-- from: 88
-  to: 90
-  value: 'Encuentra redención'
-- from: 91
-  to: 92
-  value: 'Escapar de algo'
-- from: 93
-  to: 95
-  value: 'Resolver una disputa'
-- from: 96
-  to: 00
-  value: 'Tira dos veces'
+- value: 1
+  label: 1-2
+  description: Penal
+- value: 3
+  label: 3-4
+  description: sanador
+- value: 5
+  label: 5-6
+  description: bandido
+- value: 7
+  label: 7-9
+  description: Guía
+- value: 10
+  label: 10-12
+  description: Intérprete
+- value: 13
+  label: 13-15
+  description: minero
+- value: 16
+  label: 16-18
+  description: mercenario
+- value: 19
+  label: 19-21
+  description: Paria
+- value: 22
+  label: 22-24
+  description: Vagabundo
+- value: 25
+  label: 25-27
+  description: Forester
+- value: 28
+  label: 28-30
+  description: viajero
+- value: 31
+  label: 31-33
+  description: Místico
+- value: 34
+  label: 34-36
+  description: sacerdote
+- value: 37
+  label: 37-39
+  description: Marinero
+- value: 40
+  label: 40-42
+  description: peregrino
+- value: 43
+  label: 43-45
+  description: Ladrón
+- value: 46
+  label: 46-48
+  description: Aventurero
+- value: 49
+  label: 49-51
+  description: recolector
+- value: 52
+  label: 52-54
+  description: Líder
+- value: 55
+  label: 55-58
+  description: Guardia
+- value: 59
+  label: 59-62
+  description: Artesano
+- value: 63
+  label: 63-66
+  description: Explorador
+- value: 67
+  label: 67-70
+  description: Pastor
+- value: 71
+  label: 71-74
+  description: Fisher
+- value: 75
+  label: 75-79
+  description: Guerrero
+- value: 80
+  label: 80-84
+  description: Cazador
+- value: 85
+  label: 85-89
+  description: Raider
+- value: 90
+  label: 90-94
+  description: Comerciante
+- value: 95
+  label: 95-99
+  description: Granjero
+- value: 100
+  label: 100
+  description: Rol inusual

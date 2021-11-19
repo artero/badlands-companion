@@ -1,75 +1,75 @@
-- from: 1
-  to: 4
-  value: Tu ritual tiene el efecto contrario.
-- from: 5
-  to: 8
-  value: Estás agotado de fuerza.
-- from: 9
-  to: 12
-  value: Su amigo, aliado o compañero se ve afectado negativamente.
-- from: 13
-  to: 16
-  value: Destruyes un objeto importante.
-- from: 17
-  to: 20
-  value: Inadvertidamente convocas un horror.
-- from: 21
-  to: 24
-  value: Te derrumbas y caes en un sueño turbulento.
-- from: 25
-  to: 28
-  value: Sufres un tormento físico que deja su huella en ti.
-- from: 29
-  to: 32
-  value: Escuchas voces fantasmales susurrando oscuros portentos.
-- from: 33
-  to: 36
-  value: Estás perdido en las sombras y te encuentras en otro lugar sin recordar cómo llegaste allí.
-- from: 37
-  to: 40
-  value: Alerta a alguien o algo sobre su presencia.
-- from: 41
-  to: 44
-  value: No eres tú mismo y actúas en contra de un amigo, aliado o compañero.
-- from: 45
-  to: 48
-  value: Usted afecta o daña su entorno, provocando una perturbación o un daño potencial.
-- from: 49
-  to: 52
-  value: Desperdicias recursos.
-- from: 53
-  to: 56
-  value: Sufres la pérdida del sentido durante varias horas.
-- from: 57
-  to: 60
-  value: Pierdes tu conexión con la magia durante un día más o menos y no puedes realizar rituales.
-- from: 61
-  to: 64
-  value: Su ritual afecta al objetivo de una manera inesperada y problemática.
-- from: 65
-  to: 68
-  value: Tu ritual revela una verdad sorprendente y preocupante.
-- from: 69
-  to: 72
-  value: Te tientan los poderes oscuros.
-- from: 73
-  to: 76
-  value: Ves una visión preocupante de tu futuro.
-- from: 77
-  to: 80
-  value: No puedes volver a realizar este ritual hasta que adquieras un componente importante.
-- from: 81
-  to: 84
-  value: Desarrolla un extraño miedo o compulsión.
-- from: 85
-  to: 88
-  value: Tu ritual hace que las criaturas muestren un comportamiento extraño o agresivo.
-- from: 89
-  to: 92
-  value: Estás atormentado por una aparición de tu pasado.
-- from: 93
-  to: 96
-  value: Está atormentado por una enfermedad repentina.
-- from: 97
-  to: 00
-  value: Tira dos veces más en esta mesa. Se producen ambos resultados. Si son el mismo resultado, empeorarlo.
+- value: 1
+  label: 1-4
+  description: Tu ritual tiene el efecto contrario.
+- value: 5
+  label: 5-8
+  description: Estás agotado de fuerza.
+- value: 9
+  label: 9-12
+  description: Su amigo, aliado o compañero se ve afectado negativamente.
+- value: 13
+  label: 13-16
+  description: Destruyes un objeto importante.
+- value: 17
+  label: 17-20
+  description: Inadvertidamente convocas un horror.
+- value: 21
+  label: 21-24
+  description: Te derrumbas y caes en un sueño turbulento.
+- value: 25
+  label: 25-28
+  description: Sufres un tormento físico que deja su huella en ti.
+- value: 29
+  label: 29-32
+  description: Escuchas voces fantasmales susurrando oscuros portentos.
+- value: 33
+  label: 33-36
+  description: Estás perdido en las sombras y te encuentras en otro lugar sin recordar cómo llegaste allí.
+- value: 37
+  label: 37-40
+  description: Alerta a alguien o algo sobre su presencia.
+- value: 41
+  label: 41-44
+  description: No eres tú mismo y actúas en contra de un amigo, aliado o compañero.
+- value: 45
+  label: 45-48
+  description: Usted afecta o daña su entorno, provocando una perturbación o un daño potencial.
+- value: 49
+  label: 49-52
+  description: Desperdicias recursos.
+- value: 53
+  label: 53-56
+  description: Sufres la pérdida del sentido durante varias horas.
+- value: 57
+  label: 57-60
+  description: Pierdes tu conexión con la magia durante un día más o menos y no puedes realizar rituales.
+- value: 61
+  label: 61-64
+  description: Su ritual afecta al objetivo de una manera inesperada y problemática.
+- value: 65
+  label: 65-68
+  description: Tu ritual revela una verdad sorprendente y preocupante.
+- value: 69
+  label: 69-72
+  description: Te tientan los poderes oscuros.
+- value: 73
+  label: 73-76
+  description: Ves una visión preocupante de tu futuro.
+- value: 77
+  label: 77-80
+  description: No puedes volver a realizar este ritual hasta que adquieras un componente importante.
+- value: 81
+  label: 81-84
+  description: Desarrolla un extraño miedo o compulsión.
+- value: 85
+  label: 85-88
+  description: Tu ritual hace que las criaturas muestren un comportamiento extraño o agresivo.
+- value: 89
+  label: 89-92
+  description: Estás atormentado por una aparición de tu pasado.
+- value: 93
+  label: 93-96
+  description: Está atormentado por una enfermedad repentina.
+- value: 97
+  label: 97-00
+  description: Tira dos veces más en esta mesa. Se producen ambos resultados. Si son el mismo resultado, empeorarlo.

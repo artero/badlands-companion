@@ -1,76 +1,95 @@
 ---
 layout: home
 ---
-<div class="row">
-  <div class="col">
-    <div data-controller="hello">
-      <input data-hello-target="name" type="text">
-      <button data-action="click->hello#greet">Greet</button>
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col">
-    <div class="sticky-top">
-      <div class="overflow-auto" style="height: calc(100vh - 1rem);">
-        <div>
-          <h4>Oraculos</h4>
-          <ul>
-            {{oracles}}
-            {% for oracle in site.oracles %}
-              <li><a href="#{{oracle.title | to_id}}">{{ oracle.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="row justify-content-md-center">
   <div class="col-8">
     <div class="card mb-3">
       <div id="oracle-action-theme" class="card-header">
         <h2>Badlands Territorio</h2>
       </div>
       <div class="card-body">
-        <div class="border-bottom pb-3">
-          <div class="row">
-            <div class="d-flex justify-content-between"
-                 data-controller="roll_oracle"
-                 data-roll_oracle-table-value="oracle_badlands_terrain">
-              <div class="col-10">
-                <h5>Badlads Terreno</h5>
-                <small class="" data-roll_oracle-target="result"></small>
-                <div>
-                  <i class="bi bi-x d-none"
-                     role="button"
-                     data-action="click->roll_oracle#clean_history"
-                     data-roll_oracle-target="clean_history"></i>
-                  <small class="text-muted" data-roll_oracle-target="history"></small>
-                </div>
-              </div>
-              <div>
-                <i data-action="click->roll_oracle#roll"
-                  role="button"
-                  class="bi bi-dice-6"></i>
-                <span class="btn d-inline-flex align-items-center rounded collapsed" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                  <i class="bi bi-chevron-down"></i>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="collapse multi-collapse px-3 pb-0 pt-3" id="multiCollapseExample1">
-            {% render_time oracle_badlands_terrain %}
-          </div>
-        </div>
+        {% include rolling_table.html
+                   title="Regiones"
+                   key="oracle_badlands_regions"
+                   data=site.data.oracle_badlands_regions %}
+        {% include rolling_table.html
+                   title="Terreno"
+                   key="oracle_badlands_terrain"
+                   data=site.data.oracle_badlands_terrain %}
+        {% include rolling_table.html
+                   title="Vida salvaje"
+                   key="oracle_badlands_wildlife"
+                   data=site.data.oracle_badlands_wildlife %}
       </div>
     </div>
 
-    {% for oracle in site.oracles %}
-      <div class="card mb-3">
-        <div id="oracle-action-theme" class="card-header">
-          <h2 id="{{oracle.title | to_id}}">{{ oracle.title }}</h2>
-        </div>
-        <div class="card-body overflow-auto" style="height: 300px">{{ oracle.content }}</div>
+    <div class="card mb-3">
+      <div id="oracle-action-theme" class="card-header">
+        <h2>Personanjes</h2>
       </div>
-    {% endfor %}
+      <div class="card-body">
+        {% include rolling_table.html
+                   title="Rol"
+                   key="oracle_character_role"
+                   data=site.data.oracle_character_role %}
+        {% include rolling_table.html
+                   title="Descriptión"
+                   key="oracle_character_description"
+                   data=site.data.oracle_character_description %}
+        {% include rolling_table.html
+                   title="Disposición"
+                   key="oracle_character_disposition"
+                   data=site.data.oracle_character_disposition %}
+        {% include rolling_table.html
+                   title="Objetivo"
+                   key="oracle_character_goals"
+                   data=site.data.oracle_character_goals %}
+
+        {% include rolling_table.html
+                    title="Nombres Femeninos"
+                    key="oracle_badlands_character_female_names"
+                    data=site.data.oracle_badlands_character_female_names %}
+        {% include rolling_table.html
+                    title="Nombres Masculinos"
+                    key="oracle_badlands_character_male_names"
+                    data=site.data.oracle_badlands_character_male_names %}
+        {% include rolling_table.html
+                    title="Apellidos"
+                    key="oracle_badlands_character_surnames"
+                    data=site.data.oracle_badlands_character_surnames %}
+        {% include rolling_table.html
+                    title="Apodos"
+                    key="oracle_badlands_character_niknames"
+                    data=site.data.oracle_badlands_character_niknames %}
+      </div>
+    </div>
+
+    <div class="card mb-3">
+      <div id="oracle-action-theme" class="card-header">
+        <h2>Guión</h2>
+      </div>
+      <div class="card-body">
+        {% include rolling_table.html
+                   title="Acción"
+                   key="oracle_plot_action"
+                   data=site.data.oracle_plot_action %}
+        {% include rolling_table.html
+                   title="Tema"
+                   key="oracle_plot_theme"
+                   data=site.data.oracle_plot_theme %}
+        {% include rolling_table.html
+                   title="Giro de Guión"
+                   key="oracle_plot_twist"
+                   data=site.data.oracle_plot_twist %}
+        {% include rolling_table.html
+                   title="Problemas con rituales"
+                   key="oracle_plot_mystic_backlash"
+                   data=site.data.oracle_plot_mystic_backlash %}
+        {% include rolling_table.html
+                   title="Acciones de Combate"
+                   key="oracle_plot_combat_actions"
+                   data=site.data.oracle_plot_combat_actions %}
+      </div>
+    </div>
   </div>
 </div>

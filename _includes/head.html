@@ -60,9 +60,7 @@
           this.historyTarget.innerHTML = `,  ${this.historyTarget.innerHTML}`
         }
         this.historyTarget.innerHTML = this.resultTarget.innerHTML != '' ? `${this.resultTarget.innerHTML} ${this.historyTarget.innerHTML}` : ''
-        if (this.historyTarget.innerHTML != '') {
-          this.clean_historyTarget.classList.remove('d-none')
-        }
+
         // console.log('VALUES', values)
 
         // Obtener el ultimo valor
@@ -80,10 +78,12 @@
         // const value = this.application.querySelector(`${this.tableValue }`)
         // console.log('VALUE', value)
         this.resultTarget.innerHTML = `(${result}) ${resultValue}`
+        this.clean_historyTarget.classList.remove('d-none')
       }
 
       clean_history() {
         this.historyTarget.innerHTML = ''
+        this.resultTarget.innerHTML = ''
         this.clean_historyTarget.classList.add('d-none')
       }
     })
