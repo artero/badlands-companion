@@ -1,60 +1,60 @@
-- from: 1
-  to: 5
-  value: Todo fue una distracción.
-- from: 6
-  to: 10
-  value: Se revela un oscuro secreto.
-- from: 11
-  to: 15
-  value: Se lanza una trampa.
-- from: 16
-  to: 20
-  value: Se revela que una suposición es falsa.
-- from: 21
-  to: 25
-  value: Se revela una alianza secreta.
-- from: 26
-  to: 30
-  value: Tus acciones benefician a un enemigo.
-- from: 31
-  to: 35
-  value: Alguien regresa inesperadamente.
-- from: 36
-  to: 40
-  value: Se revela un enemigo más peligroso.
-- from: 41
-  to: 45
-  value: Tú y un enemigo comparten un objetivo común.
-- from: 46
-  to: 50
-  value: Se revela una verdadera identidad.
-- from: 51
-  to: 55
-  value: Eres traicionado por alguien en quien confiaban.
-- from: 56
-  to: 60
-  value: Es demasiado tarde.
-- from: 61
-  to: 65
-  value: Se revela el verdadero enemigo.
-- from: 66
-  to: 70
-  value: El enemigo gana nuevos aliados.
-- from: 71
-  to: 75
-  value: Aparece un nuevo peligro.
-- from: 76
-  to: 80
-  value: Alguien o algo desaparece.
-- from: 81
-  to: 85
-  value: Se revela la verdad de una relación.
-- from: 86
-  to: 90
-  value: Se muestra que dos situaciones aparentemente no relacionadas están conectadas.
-- from: 91
-  to: 95
-  value: Se revelan poderes o habilidades inesperados.
-- from: 96
-  to: 00
-  value: Tira dos veces más en esta mesa. Se producen ambos resultados. Si son el mismo resultado, hazlo más dramático.
+- value: 1
+  label: 1-5
+  description: Todo fue una distracción.
+- value: 6
+  label: 6-10
+  description: Se revela un oscuro secreto.
+- value: 11
+  label: 11-15
+  description: Se lanza una trampa.
+- value: 16
+  label: 16-20
+  description: Se revela que una suposición es falsa.
+- value: 21
+  label: 21-25
+  description: Se revela una alianza secreta.
+- value: 26
+  label: 26-30
+  description: Tus acciones benefician a un enemigo.
+- value: 31
+  label: 31-35
+  description: Alguien regresa inesperadamente.
+- value: 36
+  label: 36-40
+  description: Se revela un enemigo más peligroso.
+- value: 41
+  label: 41-45
+  description: Tú y un enemigo comparten un objetivo común.
+- value: 46
+  label: 46-50
+  description: Se revela una verdadera identidad.
+- value: 51
+  label: 51-55
+  description: Eres traicionado por alguien en quien confiaban.
+- value: 56
+  label: 56-60
+  description: Es demasiado tarde.
+- value: 61
+  label: 61-65
+  description: Se revela el verdadero enemigo.
+- value: 66
+  label: 66-70
+  description: El enemigo gana nuevos aliados.
+- value: 71
+  label: 71-75
+  description: Aparece un nuevo peligro.
+- value: 76
+  label: 76-80
+  description: Alguien o algo desaparece.
+- value: 81
+  label: 81-85
+  description: Se revela la verdad de una relación.
+- value: 86
+  label: 86-90
+  description: Se muestra que dos situaciones aparentemente no relacionadas están conectadas.
+- value: 91
+  label: 91-95
+  description: Se revelan poderes o habilidades inesperados.
+- value: 96
+  label: 96-00
+  description: Tira dos veces más en esta mesa. Se producen ambos resultados. Si son el mismo resultado, hazlo más dramático.

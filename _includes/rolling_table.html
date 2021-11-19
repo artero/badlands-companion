@@ -1,0 +1,43 @@
+<div class="border-bottom mb-3">
+  <div class="d-flex justify-content-between"
+        data-controller="roll_oracle"
+        data-roll_oracle-table-value="{{include.key}}">
+    <div class="col-10">
+      <h5 data-action="click->roll_oracle#roll" role="button">{{include.title}}</h5>
+      <small class=""
+             data-roll_oracle-target="result"></small>
+      <small class="text-muted d-block"
+             data-roll_oracle-target="history"></small>
+    </div>
+    <div>
+      <i class="bi bi-x d-none"
+              role="button"
+              data-action="click->roll_oracle#clean_history"
+              data-roll_oracle-target="clean_history"></i>
+      <i data-action="click->roll_oracle#roll"
+         role="button"
+         class="bi bi-dice-6"></i>
+      <a class="btn d-inline-flex align-items-center rounded collapsed"
+            data-bs-toggle="collapse"
+            href="#{{include.key}}-collapse"
+            role="button"
+            aria-expanded="false"
+            aria-controls="{{include.key}}-collapse">
+        <i class="bi bi-chevron-expand"></i>
+      </a>
+    </div>
+  </div>
+  <div class="collapse multi-collapse px-3 pb-0 pt-3" id="{{include.key}}-collapse">
+    <table id="{{include.key}}"
+           class="table table-sm table-striped table-hover">
+      <tbody>
+        {% for row in include.data %}
+          <tr>
+            <th scope="row" data-value="{{row.value}}">{{row.label}}</th>
+            <td>{{ row.description }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>

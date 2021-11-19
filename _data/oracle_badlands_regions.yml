@@ -1,30 +1,30 @@
-- from: 1
-  to: 10
-  value: Tall Pines
-- from: 51
-  to: 60
-  value: High Plains
-- from: 11
-  to: 20
-  value: Costa Dorada
-- from: 61
-  to: 70
-  value: The Swale
-- from: 21
-  to: 30
-  value: Mil Piedras
-- from: 71
-  to: 80
-  value: Sea of Grass
-- from: 31
-  to: 40
-  value: Big Nothing
-- from: 81
-  to: 90
-  value: The Big Muddy
-- from: 41
-  to: 50
-  value: Lithic Mountains
-- from: 91
-  to: 00
-  value: Back East
+- value: 1
+  label: 1-10
+  description: Tall Pines
+- value: 51
+  label: 51-60
+  description: High Plains
+- value: 11
+  label: 11-20
+  description: Costa Dorada
+- value: 61
+  label: 61-70
+  description: The Swale
+- value: 21
+  label: 21-30
+  description: Mil Piedras
+- value: 71
+  label: 71-80
+  description: Sea of Grass
+- value: 31
+  label: 31-40
+  description: Big Nothing
+- value: 81
+  label: 81-90
+  description: The Big Muddy
+- value: 41
+  label: 41-50
+  description: Lithic Mountains
+- value: 91
+  label: 91-00
+  description: Back East

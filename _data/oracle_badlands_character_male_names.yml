@@ -1,300 +1,300 @@
 - value: 1
   label: 1
-  description: Riesgo
+  description: Albert
 - value: 2
   label: 2
-  description: Habilidad
+  description: Alejandro
 - value: 3
   label: 3
-  description: Precio
+  description: Alexander
 - value: 4
   label: 4
-  description: Aliado
+  description: Alfred
 - value: 5
   label: 5
-  description: Batalla
+  description: Allen
 - value: 6
   label: 6
-  description: Seguridad
+  description: Andrew
 - value: 7
   label: 7
-  description: Supervivencia
+  description: Angel
 - value: 8
   label: 8
-  description: Arma
+  description: Anthony
 - value: 9
   label: 9
-  description: Herida
+  description: Antonio
 - value: 10
   label: 10
-  description: Refugio
+  description: Archie
 - value: 11
   label: 11
-  description: Líder
+  description: Arthur
 - value: 12
   label: 12
-  description: Miedo
+  description: Ben
 - value: 13
   label: 13
-  description: Hora
+  description: Benjamin
 - value: 14
   label: 14
-  description: Deber
+  description: Bernard
 - value: 15
   label: 15
-  description: Secreto
+  description: Bert
 - value: 16
   label: 16
-  description: Inocencia
+  description: Carl
 - value: 17
   label: 17
-  description: Renombre
+  description: Charles
 - value: 18
   label: 18
-  description: Dirección
+  description: Charlie
 - value: 19
   label: 19
-  description: Muerte
+  description: Chester
 - value: 20
   label: 20
-  description: Honor
+  description: Clarence
 - value: 21
   label: 21
-  description: Trabajo
+  description: Claude
 - value: 22
   label: 22
-  description: Solución
+  description: Clifford
 - value: 23
   label: 23
-  description: Herramienta
+  description: Clyde
 - value: 24
   label: 24
-  description: Equilibrio
+  description: Daniel
 - value: 25
   label: 25
-  description: Amor
+  description: David
 - value: 26
   label: 26
-  description: Barrera
+  description: Earl
 - value: 27
   label: 27
-  description: Creación
+  description: Edgar
 - value: 28
   label: 28
-  description: Decaimiento
+  description: Edward
 - value: 29
   label: 29
-  description: Comercio
+  description: Edwin
 - value: 30
   label: 30
-  description: Enlace
+  description: Elmer
 - value: 31
   label: 31
-  description: Esperanza
+  description: Ernest
 - value: 32
   label: 32
-  description: Superstición
+  description: Eugene
 - value: 33
   label: 33
-  description: Paz
+  description: Floyd
 - value: 34
   label: 34
-  description: Engaño
+  description: Francis
 - value: 35
   label: 35
-  description: Historia
+  description: Francisco
 - value: 36
   label: 36
-  description: Mundo
+  description: Frank
 - value: 37
   label: 37
-  description: Voto
+  description: Frederick
 - value: 38
   label: 38
-  description: Protección
+  description: Gabriel
 - value: 39
   label: 39
-  description: Naturaleza
+  description: George
 - value: 40
   label: 40
-  description: Opinión
+  description: Grover
 - value: 41
   label: 41
-  description: Carga
+  description: Guy
 - value: 42
   label: 42
-  description: Venganza
+  description: Harold
 - value: 43
   label: 43
-  description: Oportunidad
+  description: Harry
 - value: 44
   label: 44
-  description: Facción
+  description: Harvey
 - value: 45
   label: 45
-  description: Peligro
+  description: Henry
 - value: 46
   label: 46
-  description: Corrupción
+  description: Herbert
 - value: 47
   label: 47
-  description: Libertad
+  description: Herman
 - value: 48
   label: 48
-  description: Deuda
+  description: Homer
 - value: 49
   label: 49
-  description: Odio
+  description: Horace
 - value: 50
   label: 50
-  description: Posesión
+  description: Howard
 - value: 51
   label: 51
-  description: Extraño
+  description: Hugh
 - value: 52
   label: 52
-  description: Pasaje
+  description: Ira
 - value: 53
   label: 53
-  description: Tierra
+  description: Isaac
 - value: 54
   label: 54
-  description: Criatura
+  description: Jack
 - value: 55
   label: 55
-  description: Enfermedad
+  description: Jacob
 - value: 56
   label: 56
-  description: Ventaja
+  description: James
 - value: 57
   label: 57
-  description: Sangre
+  description: Jesse
 - value: 58
   label: 58
-  description: Idioma
+  description: Jim
 - value: 59
   label: 59
-  description: Rumor
+  description: Joaquin
 - value: 60
   label: 60
-  description: Debilidad
+  description: Joe
 - value: 61
   label: 61
-  description: Codicia
+  description: John
 - value: 62
   label: 62
-  description: Familia
+  description: Joseph
 - value: 63
   label: 63
-  description: Recurso
+  description: Juan
 - value: 64
   label: 64
-  description: Estructura
+  description: Julius
 - value: 65
   label: 65
-  description: Sueño
+  description: Lawrence
 - value: 66
   label: 66
-  description: Comunidad
+  description: Lee
 - value: 67
   label: 67
-  description: Guerra
+  description: Leo
 - value: 68
   label: 68
-  description: Presagio
+  description: Leonard
 - value: 69
   label: 69
-  description: Premio
+  description: Leroy
 - value: 70
   label: 70
-  description: Destino
+  description: Lewis
 - value: 71
   label: 71
-  description: Momento
+  description: Luis
 - value: 72
   label: 72
-  description: Potencia
+  description: Luther
 - value: 73
   label: 73
-  description: Memoria
+  description: Marion
 - value: 74
   label: 74
-  description: Ruina
+  description: Martin
 - value: 75
   label: 75
-  description: Misticismo
+  description: Michael
 - value: 76
   label: 76
-  description: Rival
+  description: Miguel
 - value: 77
   label: 77
-  description: Problema
+  description: Milton
 - value: 78
   label: 78
-  description: Idea
+  description: Oliver
 - value: 79
   label: 79
-  description: Venganza
+  description: Oscar
 - value: 80
   label: 80
-  description: Salud
+  description: Otto
 - value: 81
   label: 81
-  description: Compañerismo
+  description: Patrick
 - value: 82
   label: 82
-  description: Enemigo
+  description: Paul
 - value: 83
   label: 83
-  description: Religión
+  description: Pedro
 - value: 84
   label: 84
-  description: Espíritu
+  description: Peter
 - value: 85
   label: 85
-  description: Fama
+  description: Philip
 - value: 86
   label: 86
-  description: Desolación
+  description: Ralph
 - value: 87
   label: 87
-  description: Fuerza
+  description: Ray
 - value: 88
   label: 88
-  description: Conocimiento
+  description: Raymond
 - value: 89
   label: 89
-  description: Verdad
+  description: Richard
 - value: 90
   label: 90
-  description: Misión
+  description: Robert
 - value: 91
   label: 91
-  description: Orgullo
+  description: Roy
 - value: 92
   label: 92
-  description: Pérdida
+  description: Samuel
 - value: 93
   label: 93
-  description: Ley
+  description: Sidney
 - value: 94
   label: 94
-  description: Camino
+  description: Stephen
 - value: 95
   label: 95
-  description: Advertencia
+  description: Theodore
 - value: 96
   label: 96
-  description: Relación
+  description: Thomas
 - value: 97
   label: 97
-  description: Riqueza
+  description: Tom
 - value: 98
   label: 98
-  description: Hogar
+  description: Walter
 - value: 99
   label: 99
-  description: Estrategia
+  description: Warren
 - value: 100
   label: 100
-  description: Suministro
+  description: William

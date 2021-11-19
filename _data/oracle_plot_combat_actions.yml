@@ -1,54 +1,54 @@
-- from: 1
-  to: 3
-  value: Obligar a una rendición.
-- from: 4
-  to: 6
-  value: Coordinar con aliados.
-- from: 7
-  to: 9
-  value: Reúne refuerzos.
-- from: 10
-  to: 13
-  value: Agarre algo o alguien.
-- from: 14
-  to: 17
-  value: Provoca una respuesta imprudente.
-- from: 18
-  to: 21
-  value: Intimidar o asustar.
-- from: 22
-  to: 25
-  value: Revela una verdad sorprendente.
-- from: 26
-  to: 29
-  value: Cambie el enfoque a alguien o algo más.
-- from: 30
-  to: 33
-  value: Destruye algo o inutilízalo.
-- from: 34
-  to: 39
-  value: Toma una acción decisiva.
-- from: 40
-  to: 45
-  value: Refuerce las defensas.
-- from: 46
-  to: 52
-  value: Prepara una acción.
-- from: 53
-  to: 60
-  value: Usa el terreno para ganar ventaja.
-- from: 61
-  to: 68
-  value: Aprovecha la ventaja de un arma o habilidad.
-- from: 69
-  to: 78
-  value: Cree una oportunidad.
-- from: 79
-  to: 89
-  value: Ataque con precisión.
-- from: 90
-  to: 99
-  value: Ataque con poder.
-- from: 00
-  to: Realice
-  value: una acción completamente inesperada.
+- value: 1
+  label: 1-3
+  description: Obligar a una rendición.
+- value: 4
+  label: 4-6
+  description: Coordinar con aliados.
+- value: 7
+  label: 7-9
+  description: Reúne refuerzos.
+- value: 10
+  label: 10-13
+  description: Agarre algo o alguien.
+- value: 14
+  label: 14-17
+  description: Provoca una respuesta imprudente.
+- value: 18
+  label: 18-21
+  description: Intimidar o asustar.
+- value: 22
+  label: 22-25
+  description: Revela una verdad sorprendente.
+- value: 26
+  label: 26-29
+  description: Cambie el enfoque a alguien o algo más.
+- value: 30
+  label: 30-33
+  description: Destruye algo o inutilízalo.
+- value: 34
+  label: 34-39
+  description: Toma una acción decisiva.
+- value: 40
+  label: 40-45
+  description: Refuerce las defensas.
+- value: 46
+  label: 46-52
+  description: Prepara una acción.
+- value: 53
+  label: 53-60
+  description: Usa el terreno para ganar ventaja.
+- value: 61
+  label: 61-68
+  description: Aprovecha la ventaja de un arma o habilidad.
+- value: 69
+  label: 69-78
+  description: Cree una oportunidad.
+- value: 79
+  label: 79-89
+  description: Ataque con precisión.
+- value: 90
+  label: 90-99
+  description: Ataque con poder.
+- value: 100
+  label: 100
+  description: Realiza una acción completamente inesperada.

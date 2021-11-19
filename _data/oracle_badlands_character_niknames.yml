@@ -1,300 +1,300 @@
 - value: 1
   label: 1
-  description: Riesgo
+  description: Ac
 - value: 2
   label: 2
-  description: Habilidad
+  description: Angel
 - value: 3
   label: 3
-  description: Precio
+  description: Bad
 - value: 4
   label: 4
-  description: Aliado
+  description: Baldy
 - value: 5
   label: 5
-  description: Batalla
+  description: Bandit
 - value: 6
   label: 6
-  description: Seguridad
+  description: Barron
 - value: 7
   label: 7
-  description: Supervivencia
+  description: Bear
 - value: 8
   label: 8
-  description: Arma
+  description: Big
 - value: 9
   label: 9
-  description: Herida
+  description: Big Nose
 - value: 10
   label: 10
-  description: Refugio
+  description: Black
 - value: 11
   label: 11
-  description: Líder
+  description: Boss
 - value: 12
   label: 12
-  description: Miedo
+  description: Boulder
 - value: 13
   label: 13
-  description: Hora
+  description: Bronco
 - value: 14
   label: 14
-  description: Deber
+  description: Bull
 - value: 15
   label: 15
-  description: Secreto
+  description: Bullettooth
 - value: 16
   label: 16
-  description: Inocencia
+  description: Captain
 - value: 17
   label: 17
-  description: Renombre
+  description: Catus
 - value: 18
   label: 18
-  description: Dirección
+  description: Charro / a
 - value: 19
   label: 19
-  description: Muerte
+  description: Chiquito / a
 - value: 20
   label: 20
-  description: Honor
+  description: [City Name]
 - value: 21
   label: 21
-  description: Trabajo
+  description: Cock-Eyed
 - value: 22
   label: 22
-  description: Solución
+  description: Cookie
 - value: 23
   label: 23
-  description: Herramienta
+  description: Curly
 - value: 24
   label: 24
-  description: Equilibrio
+  description: Damned
 - value: 25
   label: 25
-  description: Amor
+  description: Dash
 - value: 26
   label: 26
-  description: Barrera
+  description: Deaf
 - value: 27
   label: 27
-  description: Creación
+  description: Deuce
 - value: 28
   label: 28
-  description: Decaimiento
+  description: Diamond
 - value: 29
   label: 29
-  description: Comercio
+  description: Dirty
 - value: 30
   label: 30
-  description: Enlace
+  description: Doc
 - value: 31
   label: 31
-  description: Esperanza
+  description: Drag
 - value: 32
   label: 32
-  description: Superstición
+  description: Dusty
 - value: 33
   label: 33
-  description: Paz
+  description: Dutch
 - value: 34
   label: 34
-  description: Engaño
+  description: Dynamite
 - value: 35
   label: 35
-  description: Historia
+  description: Earl
 - value: 36
   label: 36
-  description: Mundo
+  description: English
 - value: 37
   label: 37
-  description: Voto
+  description: Flaco / a
 - value: 38
   label: 38
-  description: Protección
+  description: Gordo / a
 - value: 39
   label: 39
-  description: Naturaleza
+  description: Gorgeous
 - value: 40
   label: 40
-  description: Opinión
+  description: Gravedigger
 - value: 41
   label: 41
-  description: Carga
+  description: Greenie
 - value: 42
   label: 42
-  description: Venganza
+  description: Handsome
 - value: 43
   label: 43
-  description: Oportunidad
+  description: Happy
 - value: 44
   label: 44
-  description: Facción
+  description: Hard Case
 - value: 45
   label: 45
-  description: Peligro
+  description: Hard Luck
 - value: 46
   label: 46
-  description: Corrupción
+  description: Hawk
 - value: 47
   label: 47
-  description: Libertad
+  description: Holdout
 - value: 48
   label: 48
-  description: Deuda
+  description: Hollow
 - value: 49
   label: 49
-  description: Odio
+  description: Hoodlum
 - value: 50
   label: 50
-  description: Posesión
+  description: Hoodoo
 - value: 51
   label: 51
-  description: Extraño
+  description: Hopalong
 - value: 52
   label: 52
-  description: Pasaje
+  description: the Kid
 - value: 53
   label: 53
-  description: Tierra
+  description: Killer
 - value: 54
   label: 54
-  description: Criatura
+  description: King
 - value: 55
   label: 55
-  description: Enfermedad
+  description: Lame
 - value: 56
   label: 56
-  description: Ventaja
+  description: Laughing
 - value: 57
   label: 57
-  description: Sangre
+  description: Little
 - value: 58
   label: 58
-  description: Idioma
+  description: Liver-eating
 - value: 59
   label: 59
-  description: Rumor
+  description: Longhair
 - value: 60
   label: 60
-  description: Debilidad
+  description: Loop Garou
 - value: 61
   label: 61
-  description: Codicia
+  description: Lucky
 - value: 62
   label: 62
-  description: Familia
+  description: Mad Dog
 - value: 63
   label: 63
-  description: Recurso
+  description: Magic
 - value: 64
   label: 64
-  description: Estructura
+  description: Mysterious
 - value: 65
   label: 65
-  description: Sueño
+  description: One-legged
 - value: 66
   label: 66
-  description: Comunidad
+  description: Outlaw
 - value: 67
   label: 67
-  description: Guerra
+  description: Pistol
 - value: 68
   label: 68
-  description: Presagio
+  description: Plug
 - value: 69
   label: 69
-  description: Premio
+  description: Pony
 - value: 70
   label: 70
-  description: Destino
+  description: Preacher
 - value: 71
   label: 71
-  description: Momento
+  description: Queen
 - value: 72
   label: 72
-  description: Potencia
+  description: Ragged
 - value: 73
   label: 73
-  description: Memoria
+  description: Ranny
 - value: 74
   label: 74
-  description: Ruina
+  description: Rattlesnake
 - value: 75
   label: 75
-  description: Misticismo
+  description: Red
 - value: 76
   label: 76
-  description: Rival
+  description: Rose
 - value: 77
   label: 77
-  description: Problema
+  description: Rosin Jaw
 - value: 78
   label: 78
-  description: Idea
+  description: Sawed Off
 - value: 79
   label: 79
-  description: Venganza
+  description: Six-gun
 - value: 80
   label: 80
-  description: Salud
+  description: Slim
 - value: 81
   label: 81
-  description: Compañerismo
+  description: Smiling
 - value: 82
   label: 82
-  description: Enemigo
+  description: Snake Eyes
 - value: 83
   label: 83
-  description: Religión
+  description: Snake-bit
 - value: 84
   label: 84
-  description: Espíritu
+  description: Speedy
 - value: 85
   label: 85
-  description: Fama
+  description: Splay Foot
 - value: 86
   label: 86
-  description: Desolación
+  description: [State Name]
 - value: 87
   label: 87
-  description: Fuerza
+  description: Stretch
 - value: 88
   label: 88
-  description: Conocimiento
+  description: Stuttering
 - value: 89
   label: 89
-  description: Verdad
+  description: Swede
 - value: 90
   label: 90
-  description: Misión
+  description: Tall
 - value: 91
   label: 91
-  description: Orgullo
+  description: Three-finger
 - value: 92
   label: 92
-  description: Pérdida
+  description: Tiger
 - value: 93
   label: 93
-  description: Ley
+  description: Tinhorn
 - value: 94
   label: 94
-  description: Camino
+  description: Toothless
 - value: 95
   label: 95
-  description: Advertencia
+  description: Trapper
 - value: 96
   label: 96
-  description: Relación
+  description: Ugly
 - value: 97
   label: 97
-  description: Riqueza
+  description: Waddy
 - value: 98
   label: 98
-  description: Hogar
+  description: Whiskey
 - value: 99
   label: 99
-  description: Estrategia
+  description: Wild
 - value: 100
   label: 100
-  description: Suministro
+  description: Wildcat
