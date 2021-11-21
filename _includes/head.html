@@ -37,7 +37,7 @@
     })
 
     Stimulus.register("roll_oracle", class extends Controller {
-      static targets = [ "result", "table", "history", "clean_history" ]
+      static targets = [ "result", "history", "clean_history" ]
       static values = {
         table: String
       }
@@ -45,13 +45,6 @@
 
       roll() {
         const result = Math.floor(Math.random() * 100) + 1;
-        // console.log('result', result)
-        // console.log('TABLE', this.tableValue  )
-        // const rows = document.getElementById(this.tableValue).rows
-        // const row = rows[1].cells[0].innerHTML
-        // console.log('primera row', row)
-        // debugger
-        // Obterer los valores que sean menores o iguales al resultado
         const values = Array
           .from(document.getElementById(this.tableValue).rows)
           .filter(row => row.cells[0].dataset.value <= result)
@@ -61,22 +54,7 @@
         }
         this.historyTarget.innerHTML = this.resultTarget.innerHTML != '' ? `${this.resultTarget.innerHTML} ${this.historyTarget.innerHTML}` : ''
 
-        // console.log('VALUES', values)
-
-        // Obtener el ultimo valor
         const resultValue = values[values.length - 1].cells[1].innerHTML
-        // console.log('lastValue', resultValue)
-
-        // Obtener el valor que sea el más cercano al resultado sin excederse
-        // const closestValue = values.reduce((closest, current) => {
-        //   return Math.abs(current - result) < Math.abs(closest - result) ? current : closest
-        // }, 0)
-
-        // console.log('CLOSEST', closest)
-
-        // console.log('ROWS', )
-        // const value = this.application.querySelector(`${this.tableValue }`)
-        // console.log('VALUE', value)
         this.resultTarget.innerHTML = `(${result}) ${resultValue}`
         this.clean_historyTarget.classList.remove('d-none')
       }
@@ -85,6 +63,78 @@
         this.historyTarget.innerHTML = ''
         this.resultTarget.innerHTML = ''
         this.clean_historyTarget.classList.add('d-none')
+      }
+    })
+
+    Stimulus.register("roll_move", class extends Controller {
+      static targets = [
+         "result_title",
+         "result_move",
+         "result_matches",
+         "result_dices",
+         "result_matches_strong_hit",
+         "result_matches_miss",
+         "strong_hit",
+         "hit",
+         "modifier",
+         "miss",
+         "clean_results"
+        ]
+      static values = {
+        move: String,
+        stat: Number,
+        extra: Number
+      }
+
+      roll() {
+        const modifier = this.modifierTarget.value && parseInt(this.modifierTarget.value) || 0
+        const challenge_dices_result = this.d(10, 2)
+        const action_die_result = this.d(6, 1)
+        const roll_result = challenge_dices_result.reduce((acc, curr) => {
+          return acc + (curr < (this.sum(action_die_result) + modifier) ? 1 : 0)
+        }, 0) // 2: strong_hit, 1: hit, 0: miss
+        const is_match_on_challenge_dices_result = challenge_dices_result[0] == challenge_dices_result[1]
+
+        if(roll_result == 2){
+          this.result_moveTarget.innerHTML = this.strong_hitTarget.innerHTML
+        } else if(roll_result == 1){
+          this.result_moveTarget.innerHTML = this.hitTarget.innerHTML
+        } else if(roll_result == 0){
+          this.result_moveTarget.innerHTML = this.missTarget.innerHTML
+        } else {
+          this.result_moveTarget.innerHTML = 'Error'
+        }
+
+        if(is_match_on_challenge_dices_result){
+          if(roll_result == 2){
+            this.result_matchesTarget.innerHTML = this.result_matches_strong_hitTarget.innerHTML
+          } else {
+            this.result_matchesTarget.innerHTML = this.result_matches_missTarget.innerHTML
+          }
+        }else{
+          this.result_matchesTarget.innerHTML = ''
+        }
+
+        this.result_dicesTarget.innerHTML = `(${challenge_dices_result.join(', ')}) (${action_die_result[0]}+${modifier})`
+        this.clean_resultsTarget.classList.remove('d-none')
+      }
+
+      clean_results() {
+        this.result_moveTarget.innerHTML = ''
+        this.result_matchesTarget.innerHTML = ''
+        this.result_dicesTarget.innerHTML = ''
+        this.result_matches_strong_hitTarget.innerHTML = ''
+        this.result_matches_missTarget.innerHTML = ''
+
+        this.clean_resultsTarget.classList.add('d-none')
+      }
+
+      d(faces, n) {
+        return Array.from({length: n},() => (Math.floor(Math.random() * faces) + 1))
+      }
+
+      sum(array) {
+        return array.reduce((acc, curr) => acc + curr, 0)
       }
     })
   </script>

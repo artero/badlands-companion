@@ -1,6 +1,70 @@
 ---
 layout: home
 ---
+<div class="row">
+  <div class="col">
+    <div class="roll-move"
+         data-controller="roll_move">
+      <div class="">
+        <h5 class="d-inline">Acampar</h5>
+        <input data-roll_move-target="modifier" type="number" min="0" max="10">
+        <i data-action="click->roll_move#roll"
+          role="button"
+          class="bi bi-dice-6"></i>
+        <small class="" data-roll_move-target="result_dices"></small>
+        <i class="bi bi-x d-none"
+           role="button"
+           data-action="click->roll_move#clean_results"
+           data-roll_move-target="clean_results"></i>
+      </div>
+      <template data-roll_move-target="strong_hit">
+        <div>
+          <p>Tus aliados y tu pueden elegir dos cada uno:</p>
+          <ul>
+            <li><b>Recuperarse:</b> <Toma></Toma> +1 de salud para ti y cualquier acompañante.</li>
+            <li><b>Consumir (comida o bebida):</b> Sufre -1 de suministros y toma +1 de salud para ti y cualquier acompañante.</li>
+            <li><b>Relajarse:</b> Toma +1 de espíritu.</li>
+            <li><b>Concentrarse:</b> Toma +1 de impulso.</li>
+            <li><b>Prepararse:</b> Cuando levante el campamento, agrega +1 si utilizará el movimiento <a href="#emprender-un-viaje">Emprender un Viaje</a>.</li>
+          </ul>
+        </div>
+      </template>
+      <template data-roll_move-target="hit">
+        <div>
+          <p>Tus aliados y tu pueden elegir cada uno:</p>
+          <ul>
+            <li><b>Recuperarse:</b> Toma +1 de salud para ti y cualquier acompañante.</li>
+            <li><b>Consumir (comida o bebida):</b> Sufre -1 de suministros y toma +1 de salud para ti y cualquier acompañante.</li>
+            <li><b>Relajarse:</b> Toma +1 de espíritu.</li>
+            <li><b>Concentrarse:</b> Toma +1 de impulso.</li>
+            <li><b>Prepararse:</b> Cuando levante el campamento, agrega +1 si utilizará el movimiento <a href="#emprender-un-viaje">Emprender un Viaje</a>.</li>
+          </ul>
+        </div>
+      </template>
+      <template data-roll_move-target="miss">
+        <div>
+          <p>Con un <strong>fracaso</strong>, no te recuperas. Tendrás que <a href="#pagar-el-precio">Pagar el Precio</a>.</p>
+        </div>
+      </template>
+      <div>
+        Cuando descansa y se recupera durante varias horas en un lugar remoto, tirar +suministros.
+      </div>
+      <template data-roll_move-target="result_matches_strong_hit">
+        <p>A twist in the narrative, something interesting, or a new opportunity.</p>
+        <p><small>If you’re unsure what happens, Ask the Oracle.</small></p>
+      </template>
+      <template data-roll_move-target="result_matches_miss">
+        <p>a heightened negative outcome, a complication, or a new danger.</p>
+        <p><small>If you’re unsure what happens, Ask the Oracle.</small></p>
+      </template>
+
+      <div class="" data-roll_move-target="result_title"></div>
+      <div class="" data-roll_move-target="result_move"></div>
+      <div class="" data-roll_move-target="result_matches"></div>
+    </div>
+
+  </div>
+</div>
 
 <div class="row">
   <div class="col">
